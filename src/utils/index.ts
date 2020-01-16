@@ -61,22 +61,6 @@ export function formatTime(time: number, option: string): string {
   }
 }
 
-export function param2Obj(url: string): object {
-  const search = url.split('?')[1]
-  if (!search) {
-    return {}
-  }
-  return JSON.parse(
-    '{"' +
-    decodeURIComponent(search)
-      .replace(/"/g, '\\"')
-      .replace(/&/g, '","')
-      .replace(/=/g, '":"')
-      .replace(/\+/g, ' ') +
-    '"}'
-  )
-}
-
 export function copyArray<T>(arr: Array<T>): Array<T> {
   return JSON.parse(JSON.stringify(arr))
 }
