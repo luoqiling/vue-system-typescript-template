@@ -1,0 +1,38 @@
+@mixin global_clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin global_icon_warn{
+  &::before{
+    display: inline-block;
+    content: "!";
+    width: 12px;
+    height: 12px;
+    color: #EF352B;
+    font-size: 10px;
+    background: #FFEBEA;
+    border-radius: 50%;
+    line-height: 12px;
+    text-align: center;
+    font-weight: 600;
+    margin-right: 4px;
+  }
+}
+
+@mixin global_ellipsis() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@mixin global_multi_ellipsis($num) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp: $num;
+}

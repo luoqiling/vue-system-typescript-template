@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>login_icon_accout</title>
+    <desc>Created with Sketch.</desc>
+    <g id="uikit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-基本控件" transform="translate(-93.000000, -1483.000000)">
+            <g id="1" transform="translate(83.000000, 909.000000)">
+                <g id="accout_s" transform="translate(2.000000, 562.000000)">
+                    <g id="login_icon_accout" transform="translate(8.000000, 12.000000)">
+                        <g>
+                            <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                            <g id="Group" transform="translate(4.000000, 4.000000)" fill="#7B7D83">
+                                <circle id="椭圆形" cx="6" cy="3" r="3"></circle>
+                                <path d="M11.5,12 C11.5,9.23857625 9.03756612,7 6,7 C2.96243388,7 0.5,9.23857625 0.5,12" id="路径"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+.el-button--primary {
+  color: #fff;
+  background-color: $global_main_color;
+
+  &:focus {
+    color: #fff;
+    border-color: $global_main_color;
+    background-color: $global_main_color;
+  }
+
+  &:hover {
+    color: #fff;
+    border-color: $global_main_color;
+    background-color: $global_main_color;
+    opacity: .8;
+  }
+}
+
+.el-message-box__headerbtn:focus .el-message-box__close, .el-message-box__headerbtn:hover .el-message-box__close {
+  color: $global_main_color;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_人群管理_s</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_人群管理_s" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="Rectangle-5-Copy-2" fill="#FFFFFF" opacity="0" x="0" y="0" width="20" height="20"></rect>
+            <path d="M7.29129509,3.06442616 C7.11990548,3.01794876 6.93923074,3.01794876 6.76784113,3.06442616 C6.23480794,3.20897398 5.91987834,3.75826191 6.06442616,4.29129509 L7.36198137,9.07614744 C7.45492441,9.41888332 7.72266046,9.68661937 8.06539634,9.77956241 L12.8502487,11.0771176 C13.0216383,11.123595 13.202313,11.123595 13.3737027,11.0771176 C13.9067358,10.9325698 14.2216654,10.3832819 14.0771176,9.85024869 L12.7795624,5.06539634 C12.6866194,4.72266046 12.4188833,4.45492441 12.0761474,4.36198137 L7.29129509,3.06442616 Z" id="Rectangle" stroke="#FFFFFF" transform="translate(10.070772, 7.070772) rotate(-45.000000) translate(-10.070772, -7.070772) "></path>
+            <path d="M13.8270309,14.2522832 L8.71321243,12.8263702 C8.26125585,12.6774815 7.90675273,12.3229784 7.75786407,11.8710218 L6.34923861,6.77449089" id="Path" stroke="#FFFFFF" stroke-linecap="round" transform="translate(10.088135, 10.513387) rotate(-45.000000) translate(-10.088135, -10.513387) "></path>
+            <path d="M13.8270309,17.0264938 L8.71321243,15.6005808 C8.26125585,15.4516922 7.90675273,15.097189 7.75786407,14.6452324 L6.34923861,9.5487015" id="Path" stroke="#FFFFFF" stroke-linecap="round" transform="translate(10.088135, 13.287598) rotate(-45.000000) translate(-10.088135, -13.287598) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_verify code</title>
+    <desc>Created with Sketch.</desc>
+    <g id="登录" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-登录" transform="translate(-788.000000, -597.000000)">
+            <g id="icon_verify-code" transform="translate(788.000000, 597.000000)">
+                <g>
+                    <rect id="矩形" fill="#692222" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                    <path d="M5,6 L15,6 C15.5522847,6 16,6.44771525 16,7 L16,13 C16,13.5522847 15.5522847,14 15,14 L5,14 C4.44771525,14 4,13.5522847 4,13 L4,7 C4,6.44771525 4.44771525,6 5,6 Z" id="矩形" fill="#7B7D83"></path>
+                    <g id="分组-3" transform="translate(6.000000, 9.000000)" fill="#FFFFFF">
+                        <circle id="椭圆形" cx="0.75" cy="1" r="1"></circle>
+                        <circle id="椭圆形-copy" cx="3.75" cy="1" r="1"></circle>
+                        <circle id="椭圆形-copy-2" cx="6.75" cy="1" r="1"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
