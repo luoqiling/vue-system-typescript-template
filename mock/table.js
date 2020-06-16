@@ -15,9 +15,9 @@ module.exports = [
   {
     url: '/table/list',
     type: 'get',
-    response: config => {
+    response: (req, res) => {
       const items = data.items
-      return {
+      res.send({
         data: {
           total: items.length,
           items: items
@@ -25,7 +25,7 @@ module.exports = [
         code: 200,
         msg: "成功",
         success: true
-      }
+      })
     }
   }
 ]

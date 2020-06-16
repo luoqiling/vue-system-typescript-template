@@ -2,19 +2,16 @@ const chokidar = require('chokidar')
 const bodyParser = require('body-parser')
 const chalk = require('chalk')
 const path = require('path')
-const Mock = require('mockjs')
 const fs = require('fs')
 
 const mockDir = path.join(process.cwd(), 'mock')
 
-const responseFake = (url, type, respond) => {
+const responseFake = (url, type, response) => {
   return {
     url: new RegExp(`${process.env.VUE_APP_BASE_API}${url}$`),
     // url: new RegExp(`/mock${url}$`),
     type: type || 'get',
-    response(req, res) {
-      res.json(Mock.mock(respond instanceof Function ? respond(req, res) : respond))
-    }
+    response
   }
 }
 

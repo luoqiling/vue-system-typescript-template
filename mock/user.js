@@ -19,24 +19,18 @@ module.exports = [
   {
     url: '/session/login',
     type: 'post',
-    response: config => {
-      const { mobile } = config.body
+    response: (req, res) => {
+      const { mobile } = req.body
       const token = users[mobile]
-
-      // mock error
-      if (!token) {
-        return {
-          code: 60204,
-          message: 'Account and password are incorrect.'
-        }
-      }
-
-      return {
+      res.send(token ? {
         code: 200,
         data: token,
         msg: '成功',
         success: true
-      }
+      } : {
+        code: 60204,
+        msg: 'Account and password are incorrect.'
+      })
     }
   },
 
@@ -44,26 +38,26 @@ module.exports = [
   {
     url: '/session/logout',
     type: 'post',
-    response: _ => {
-      return {
+    response: (req, res) => {
+      res.send({
         code: 200,
         data: true,
         msg: '成功',
         success: true
-      }
+      })
     }
   },
 
   {
     url: '/session/sendCode',
     type: 'post',
-    response: _ => {
-      return {
+    response: (req, res) => {
+      res.send({
         code: 200,
         data: true,
         msg: '成功',
         success: true
-      }
+      })
     }
   }
 ]
